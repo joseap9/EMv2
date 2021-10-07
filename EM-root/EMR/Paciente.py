@@ -217,7 +217,7 @@ class ListaEnlazada:
             temp = temp.proximo
 
     # funcion para ordenar por burbuja
-    def bubbsort(self):
+    def ordenamientoBurbuja(self):
         for i in range(self.size - 1):  # for controlling passes of Bubble Sort
             curr = self.cabeza
             nxt = curr.proximo

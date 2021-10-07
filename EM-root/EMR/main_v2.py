@@ -381,12 +381,12 @@ def ordenamiento():
 
     def ordenPorDiagnostico():
 
-        listaDiagnostico.bubbsort()
+        listaDiagnostico.ordenamientoBurbuja()
         listaOrdenadaPorDiagnostico.sort(key=lambda x: x.getRutM())
 
     def ordenPorEstado():
 
-        listaEstado.bubbsort()
+        listaEstado.ordenamientoBurbuja()
         listaOrdenadaPorEstado.sort(key=lambda x: x.getNombreM())
 
 
@@ -395,7 +395,7 @@ def ordenamiento():
 
         tiempo_inicial = time()
 
-        listaOrdenamiento.ordenamientoSeleccion()
+        listaOrdenamiento.ordenamientoBurbuja()
         listaOrdenadaPorEdad.sort(key=lambda x: x.edad)
 
         tiempo_final = time()
@@ -429,7 +429,7 @@ def ordenamiento():
     tablaT.place(x=50, y=50)
     tablaT.tag_configure('oddrow', background="#26C1F4")
     tablaT.tag_configure('evenrow', background="#C0EAF8")
-    tablaT.heading(0, text="id")
+    tablaT.heading(0, text="n°")
     tablaT.heading(1, text="Nombre")
     tablaT.heading(2, text="Edad")
     tablaT.column(0, width=10, minwidth=25)
@@ -453,7 +453,7 @@ def ordenamiento():
     tablaE.place(x=350, y=50)
     tablaE.tag_configure('oddrow', background="#26C1F4")
     tablaE.tag_configure('evenrow', background="#C0EAF8")
-    tablaE.heading(0, text="id")
+    tablaE.heading(0, text="n°")
     tablaE.heading(1, text="Nombre")
     tablaE.heading(2, text="Estado")
     tablaE.column(0, width=10, minwidth=25)
@@ -477,7 +477,7 @@ def ordenamiento():
     tablaD.place(x=650, y=50)
     tablaD.tag_configure('oddrow', background="#26C1F4")
     tablaD.tag_configure('evenrow', background="#C0EAF8")
-    tablaD.heading(0, text="id")
+    tablaD.heading(0, text="n°")
     tablaD.heading(1, text="Nombre")
     tablaD.heading(2, text="Diag. I")
     tablaD.column(0, width=10, minwidth=25)
