@@ -1,0 +1,50 @@
+nombre,rut,sexo,edad,diagnosticoI,estado,despacho,altaMedica,nombreMedico,rutMedico,diagnostico,tratamiento,idEspecialista,nombreEspecialidad
+Jose Perdomo,123,M,25,1-Hemorragia Traumatica,Reanimacion,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Ana Navarro,124,F,79,2-Impacto de Bala,Emergencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Miguel Soto,125,M,26,3-Fractura Osea,Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Maria ahumada,126,F,32,4-Infeccion Bacteriana,Prioritario,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Jaime Jordi,127,M,27,5-Otro,No Urgencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Jessica Lopez,128,F,49,1-Hemorragia Traumatica,Reanimacion,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Josep Pedrerol,129,M,28,2-Impacto de Bala,Emergencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Carma Barcelo,130,F,71,3-Fractura Osea,Urgencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Silvia Gonzalez,131,M,29,4-Infeccion Bacteriana,Prioritario,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Quim Domenech,132,F,59,5-Otro,No Urgencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Cristobal Soria,133,M,30,1-Hemorragia Traumatica,Reanimacion,neurologia,***,***,***,molestia tibial,terapia,***,***
+Alexandra Flores,134,F,23,2-Impacto de Bala,Emergencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Erika Gonzalez,135,M,31,3-Fractura Osea,Urgencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Eduardo Aguirre,136,F,43,4-Infeccion Bacteriana,Prioritario,neurologia,***,***,***,molestia tibial,terapia,***,***
+Elena Mejia,137,M,32,5-Otro,No Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Cesar Bartomeu,138,F,4,1-Hemorragia Traumatica,Reanimacion,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Jose Perdomo,139,M,33,2-Impacto de Bala,Emergencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Ana Navarro,140,F,20,3-Fractura Osea,Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Miguel Soto,141,M,34,4-Infeccion Bacteriana,Prioritario,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Maria ahumada,142,M,26,5-Otro,Reanimacion,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Jaime Jordi,143,F,39,1-Hemorragia Traumatica,Emergencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Jessica Lopez,144,M,27,2-Impacto de Bala,Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Josep Pedrerol,145,F,11,3-Fractura Osea,Prioritario,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Carma Barcelo,146,M,28,4-Infeccion Bacteriana,No Urgencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Silvia Gonzalez,147,F,7,5-Otro,Reanimacion,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Quim Domenech,148,M,29,1-Hemorragia Traumatica,Emergencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Cristobal Soria,149,F,61,2-Impacto de Bala,Urgencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Alexandra Flores,150,M,30,3-Fractura Osea,Prioritario,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Erika Gonzalez,151,F,1,4-Infeccion Bacteriana,No Urgencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Eduardo Aguirre,152,M,31,5-Otro,Reanimacion,neurologia,***,***,***,molestia tibial,terapia,***,***
+Elena Mejia,153,F,42,1-Hemorragia Traumatica,Emergencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Cesar Bartomeu,154,M,32,2-Impacto de Bala,Urgencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Jose Perdomo,155,F,22,3-Fractura Osea,Prioritario,neurologia,***,***,***,molestia tibial,terapia,***,***
+Ana Navarro,156,M,33,4-Infeccion Bacteriana,No Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Miguel Soto,157,F,29,5-Otro,Reanimacion,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Maria ahumada,158,M,34,1-Hemorragia Traumatica,Emergencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Jaime Jordi,159,F,73,2-Impacto de Bala,Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Jessica Lopez,160,M,35,3-Fractura Osea,Prioritario,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Josep Pedrerol,161,M,27,4-Infeccion Bacteriana,Reanimacion,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Carma Barcelo,162,F,60,5-Otro,Emergencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Silvia Gonzalez,163,M,28,1-Hemorragia Traumatica,Urgencia,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Quim Domenech,164,F,44,2-Impacto de Bala,Prioritario,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Cristobal Soria,165,M,29,3-Fractura Osea,No Urgencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Alexandra Flores,166,F,11,4-Infeccion Bacteriana,Reanimacion,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Erika Gonzalez,167,M,30,5-Otro,Emergencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Eduardo Aguirre,168,F,22,1-Hemorragia Traumatica,Urgencia,neurologia,***,***,***,molestia tibial,terapia,***,***
+Elena Mejia,169,M,31,2-Impacto de Bala,Prioritario,cardiologia,***,***,***,molestia tibial,terapia,***,***
+Cesar Bartomeu,170,F,11,3-Fractura Osea,No Urgencia,traumatologia,***,***,***,molestia tibial,terapia,***,***
+Jose Perdomo,171,M,32,4-Infeccion Bacteriana,Reanimacion,neurologia,***,***,***,molestia tibial,terapia,***,***
