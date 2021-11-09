@@ -401,7 +401,8 @@ def ordenamiento():
         tiempo_final = time()
         tiempo_ejecucion = tiempo_final - tiempo_inicial
 
-        print('El tiempo de ejecucion fue: ' + str(tiempo_ejecucion) + "seg")
+        print("Tiempo transcurrido: %0.15f segundos." % tiempo_ejecucion)
+        listaOrdenadaPorEdad.sort(key=lambda x: x.edad)
 
 
 
