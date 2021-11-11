@@ -1,3 +1,4 @@
+
 from bs4 import BeautifulSoup
 import requests
 import  pandas as pd
@@ -7,6 +8,8 @@ from tkinter import messagebox
 import pandas_datareader as pdr
 from datetime import datetime, timedelta
 import mplfinance as mpf
+from PIL import Image, ImageTk
+from threading import Thread
 
 url = 'https://coinmarketcap.com/es/'
 page = requests.get(url)
@@ -71,6 +74,7 @@ for x in range(5):
     listaMonedas.append(maximo)
 
 def graficoBitcoin():
+
     # procedimiento de scrapping solo para bitcoin
     url = 'https://coinmarketcap.com/es/currencies/bitcoin/'
     page1 = requests.get(url)
@@ -82,6 +86,29 @@ def graficoBitcoin():
     int_date = datetime.now() - timedelta(days=30)
     info = pdr.get_data_yahoo(moneda + '-USD', start=int_date)
     mpf.plot(info, type='candle', title='valor ' + 'Bitcoin', style='charles')
+
+def frameBitcoin():
+    top = Toplevel()
+    top.title("Bitcoin")
+    top.geometry("800x600")
+    header = Frame(top, width=1200, height=180, bg="white")
+    header.pack()
+    body = Frame(top, width=1200, height=480, bg="#E5F3F7")
+    body.pack()
+
+    img = Image.open('images_coins/1.png')
+    img = ImageTk.PhotoImage(img)
+    img_label = Label(top, image=img, bg="white")
+    img_label.Image = img
+    img_label.place(x=20, y=16)
+
+    name = Label(top, text=listaMonedas[0], bg="white", font=("Aharoni", 25, 'bold'))
+    name.place(x=200, y=75)
+
+    value = Label(top, text=listaMonedas[1], bg="white", font=("Aharoni", 25, 'bold'))
+    value.place(x=500, y=75)
+
+    top.mainloop()
 
 
 def graficoEtherium():
@@ -97,6 +124,27 @@ def graficoEtherium():
     info = pdr.get_data_yahoo(moneda + '-USD', start=int_date)
     mpf.plot(info, type='candle', title='valor ' + 'Etherium', style='charles')
 
+def frameEtherium():
+    top = Toplevel()
+    top.title("Etherium")
+    top.geometry("800x600")
+    header = Frame(top, width=1200, height=180, bg="white")
+    header.pack()
+    body = Frame(top, width=1200, height=480, bg="#E5F3F7")
+    body.pack()
+
+    img = Image.open('images_coins/2.png')
+    img = ImageTk.PhotoImage(img)
+    img_label = Label(top, image=img, bg="white")
+    img_label.Image = img
+    img_label.place(x=20, y=16)
+
+    name = Label(top, text=listaMonedas[4], bg="white", font=("Aharoni", 25, 'bold'))
+    name.place(x=200, y=75)
+
+    value = Label(top, text=listaMonedas[5], bg="white", font=("Aharoni", 25, 'bold'))
+    value.place(x=500, y=75)
+
 def graficoBinance():
     # procedimiento de scrapping solo para binance
     url = 'https://coinmarketcap.com/es/currencies/binance-coin/'
@@ -109,6 +157,27 @@ def graficoBinance():
     int_date = datetime.now() - timedelta(days=30)
     info = pdr.get_data_yahoo(moneda + '-USD', start=int_date)
     mpf.plot(info, type='candle', title='valor ' + 'Binance', style='charles')
+
+def frameBinance():
+    top = Toplevel()
+    top.title("Binance")
+    top.geometry("800x600")
+    header = Frame(top, width=1200, height=180, bg="white")
+    header.pack()
+    body = Frame(top, width=1200, height=480, bg="#E5F3F7")
+    body.pack()
+
+    img = Image.open('images_coins/3.png')
+    img = ImageTk.PhotoImage(img)
+    img_label = Label(top, image=img, bg="white")
+    img_label.Image = img
+    img_label.place(x=20, y=16)
+
+    name = Label(top, text=listaMonedas[8], bg="white", font=("Aharoni", 25, 'bold'))
+    name.place(x=200, y=75)
+
+    value = Label(top, text=listaMonedas[9], bg="white", font=("Aharoni", 25, 'bold'))
+    value.place(x=550, y=75)
 
 def graficoCardano():
     # procedimiento de scrapping solo para cardano
@@ -123,6 +192,27 @@ def graficoCardano():
     info = pdr.get_data_yahoo(moneda + '-USD', start=int_date)
     mpf.plot(info, type='candle', title='valor ' + 'Cardano', style='charles')
 
+def frameCardano():
+    top = Toplevel()
+    top.title("Cardano")
+    top.geometry("800x600")
+    header = Frame(top, width=1200, height=180, bg="white")
+    header.pack()
+    body = Frame(top, width=1200, height=480, bg="#E5F3F7")
+    body.pack()
+
+    img = Image.open('images_coins/4.png')
+    img = ImageTk.PhotoImage(img)
+    img_label = Label(top, image=img, bg="white")
+    img_label.Image = img
+    img_label.place(x=20, y=16)
+
+    name = Label(top, text=listaMonedas[12], bg="white", font=("Aharoni", 25, 'bold'))
+    name.place(x=200, y=75)
+
+    value = Label(top, text=listaMonedas[13], bg="white", font=("Aharoni", 25, 'bold'))
+    value.place(x=500, y=75)
+
 def graficotether():
     # procedimiento de scrapping solo para tether
     url = 'https://coinmarketcap.com/es/currencies/tether/'
@@ -135,6 +225,27 @@ def graficotether():
     int_date = datetime.now() - timedelta(days=30)
     info = pdr.get_data_yahoo(moneda + '-USD', start=int_date)
     mpf.plot(info, type='candle', title='valor ' + 'Tether', style='charles')
+
+def frametether():
+    top = Toplevel()
+    top.title("Tether")
+    top.geometry("800x600")
+    header = Frame(top, width=1200, height=180, bg="white")
+    header.pack()
+    body = Frame(top, width=1200, height=480, bg="#E5F3F7")
+    body.pack()
+
+    img = Image.open('images_coins/5.png')
+    img = ImageTk.PhotoImage(img)
+    img_label = Label(top, image=img, bg="white")
+    img_label.Image = img
+    img_label.place(x=20, y=16)
+
+    name = Label(top, text=listaMonedas[16], bg="white", font=("Aharoni", 25, 'bold'))
+    name.place(x=200, y=75)
+
+    value = Label(top, text=listaMonedas[17], bg="white", font=("Aharoni", 25, 'bold'))
+    value.place(x=500, y=75)
 
 def tabla():
 
@@ -151,15 +262,20 @@ def tabla():
             abierto = item['open']
 
             if valor == 1:
-                graficoBitcoin()
+                Thread(target=frameBitcoin()).start()
+                Thread(target=graficoBitcoin()).start()
             elif valor == 2:
-                graficoEtherium()
+                Thread(target=graficoEtherium()).start()
+                Thread(target=frameEtherium()).start()
             elif valor == 3:
-                graficoBinance()
+                Thread(target=frameBinance()).start()
+                Thread(target=graficoBinance()).start()
             elif valor == 4:
-                graficoCardano()
+                Thread(target=frameCardano()).start()
+                Thread(target=graficoCardano()).start()
             else:
-                graficotether()
+                Thread(target=frametether()).start()
+                Thread(target=graficotether()).start()
 
 
     # =======================
